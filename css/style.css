@@ -5,8 +5,8 @@ hrml{
 }
 
 body{
-    color: 383e45;
-    font-size: 09rem;
+    color: #383e45;
+    font-size: 0.9rem;
 }
 
 a{
@@ -28,6 +28,10 @@ li{
 }
 
 .site-title a{
+    display:block;
+}
+
+.section-title{
     display: inline-block;
     font-size: 2rem;
     text-align:center;
@@ -126,7 +130,7 @@ footer
 -----------*/
 #footer{
     font-size: 0.5rem;
-    padding: 100pz 0;
+    padding: 100px 0;
     text-align: center;
 }
 
