@@ -81,29 +81,6 @@ loading
   }
 
 
-.section-title{
-    display: inline-block;
-    font-size: 2rem;
-    text-align:center;
-    margin-bottom: 60px;
-}
-
-.content-title{
-    font-size: 2rem;
-    margin: 10px 0;
-}
-
-.wrapper{
-    max-width: 960px;
-    margin: 0 auto 100px auto;
-    padding:0 4%;
-    text-align: center;
-    font-family: "Rozha One", serif;
-    font-weight: 400;
-    font-size: 2rem;
-    font-style: bold;
-}
-
 /*-----------------------
 ヘッダー
 -------------------------*/
@@ -121,35 +98,6 @@ loading
 #header a:hover{
     opacity:0.3;
 }
-
-.site-title a{
-    display:block;
-}
-
-.header-title-left{
-    width: 120px;
-    line-height: 1px;
-    padding: 10px 0;
-    color: #000;
-}
-
-.header-title-right1{
-    width: 120px;
-    line-height: 1px;
-    padding: 10px 0;
-    color: #000;
-    float: left;
-
-}
-
-.header-title-right2{
-    width: 120px;
-    line-height: 1px;
-    padding: 10px 0;
-    color: #000;
-    text-align: right;
-}
-
 
 /* .rozha-one-regular {
     font-family: "Rozha One", serif;
@@ -178,37 +126,35 @@ main {
     color: #FFFFFF;
 }
 
-/*---------------
-About
-----------------*/
-#about .content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*---
+content
+---*/
+
+
+
+#description1{
+    text-align: center;
 }
 
-#about img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 30px;
+.content-title{
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 60px;
+}
+.content-text{
+    text-align: right;
 }
 
-#about .text{
+.right{
+    text-align: right;
+}
+
+.left{
     text-align: left;
 }
 
-/*----------
-WORKS
-----------*/
-#WOEKS ul{
-    display: flex;
-    justify-content: space-between;
-}
 
-#WORKS li{
-    width: 32%;
-}
+
 
 /*----------
 footer
@@ -240,16 +186,5 @@ SP
 
     #about img{
         margin-right: 0;
-    }
-
-    /*----------
-    Bicycle
-    -----------*/
-    #bicycle ul{
-        flex-direction: column;
-    }
-    #bicycle li{
-        width: 100%;
-        margin-bottom: 30px;
     }
 }
