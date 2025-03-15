@@ -16,7 +16,9 @@ a{
 a:link
     {color: #FFFFFF;}
 
-
+a:link:visited{
+    color: #FFFFFF;
+}
 
 img{
     max-width: 100%;
@@ -111,7 +113,6 @@ main {
 
 .description1{
     text-align: center;
-    margin:0 auto;
     color: #90BDB3;
 }
 
@@ -119,10 +120,6 @@ main {
 /*---
 content
 ---*/
-#description1{
-    text-align: center;
-}
-
 .content-title{
     font-size: 2rem;
     text-align: center;
