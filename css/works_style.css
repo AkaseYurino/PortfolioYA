@@ -99,26 +99,21 @@ loading
     opacity:0.3;
 }
 
-/* .rozha-one-regular {
-    font-family: "Rozha One", serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-
-
 /*----------
 Main Visual
 ----------*/
 
 #mainvisual{
-    margin-bottom: 80px;
+    background-color: #90BDB3;
+    margin-top: 5%;
 }
 
 #mainvisual img{
-    width: 100%;
-    max-width: 1920px;
-    height: 600px;
+    width: 20%;
     object-fit: cover;
+    float: right;
+    margin-right: 10%;
+    background-color: #90BDB3;
 }
 
 main {
@@ -126,34 +121,48 @@ main {
     color: #FFFFFF;
 }
 
+.description1{
+    text-align: center;
+    margin:0 auto;
+    color: #90BDB3;
+}
+
+
 /*---
 content
 ---*/
-
-
-
 #description1{
     text-align: center;
 }
 
 .content-title{
-    display: inline-block;
     font-size: 2rem;
-    margin-bottom: 60px;
 }
-.content-text{
-    text-align: right;
+
+.content-img-right{
+    margin-right: 20%;
+    float: right;
+}
+
+.content-img-left{
+    margin-left: 20%;
+    float:left;
+}
+
+.center{
+    clear: both;
+    text-align: center;
 }
 
 .right{
+    margin-right: 20%;
     text-align: right;
 }
 
 .left{
+    margin-left: 20%;
     text-align: left;
 }
-
-
 
 
 /*----------
