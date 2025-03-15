@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-hrml{
+html{
     font-size: 100%;
 }
 
 body{
-    color: #FFFFFF
+    color: #FFFFFF;
     font-size: 0.9rem;
 }
 
@@ -126,6 +126,10 @@ loading
     display:block;
 }
 
+.site-title a:visited{
+    color:#90BDB3;
+}
+
 .header-title-left{
     width: 120px;
     line-height: 1px;
@@ -149,14 +153,6 @@ loading
     color: #000;
     text-align: right;
 }
-
-
-/* .rozha-one-regular {
-    font-family: "Rozha One", serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-
 
 /*----------
 Main Visual
@@ -199,18 +195,6 @@ About
 }
 
 /*----------
-WORKS
-----------*/
-#WOEKS ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-#WORKS li{
-    width: 32%;
-}
-
-/*----------
 footer
 -----------*/
 #footer{
@@ -242,14 +226,17 @@ SP
         margin-right: 0;
     }
 
-    /*----------
-    Bicycle
-    -----------*/
-    #bicycle ul{
-        flex-direction: column;
-    }
-    #bicycle li{
-        width: 100%;
-        margin-bottom: 30px;
-    }
+/*----------
+WORKS
+----------*/
+#WOEKS ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#WORKS li{
+    width: 32%;
+}
+
+   
 }
