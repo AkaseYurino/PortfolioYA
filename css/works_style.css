@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-hrml{
+html{
     font-size: 100%;
 }
 
 body{
-    color: #FFFFFF
+    color: #FFFFFF;
     font-size: 0.9rem;
 }
 
@@ -16,12 +16,10 @@ a{
 a:link
     {color: #FFFFFF;}
 
+
+
 img{
     max-width: 100%;
-}
-
-li{
-    list-style: none;
 }
 
 /*----
@@ -102,18 +100,8 @@ loading
 /*----------
 Main Visual
 ----------*/
-
 #mainvisual{
-    background-color: #90BDB3;
-    margin-top: 5%;
-}
-
-#mainvisual img{
-    width: 20%;
-    object-fit: cover;
-    float: right;
-    margin-right: 10%;
-    background-color: #90BDB3;
+    text-align: center;
 }
 
 main {
@@ -137,33 +125,15 @@ content
 
 .content-title{
     font-size: 2rem;
-}
-
-.content-img-right{
-    margin-right: 20%;
-    float: right;
-}
-
-.content-img-left{
-    margin-left: 20%;
-    float:left;
-}
-
-.center{
-    clear: both;
     text-align: center;
 }
 
-.right{
-    margin-right: 20%;
-    text-align: right;
+.content-text{
+    text-align: center;
 }
-
-.left{
-    margin-left: 20%;
-    text-align: left;
+.content-img{
+    text-align: center;
 }
-
 
 /*----------
 footer
@@ -173,6 +143,7 @@ footer
     padding: 100px 0;
     text-align: center;
     background-color: #90BDB3;
+    color: #FFFFFF;
 }
 
 /*----------
@@ -184,16 +155,5 @@ SP
     -----------*/
     #mainvisual img{
         height: calc(100vh - 60px);
-    }
-    
-    /*----------
-    About
-    -----------*/
-    #about .content{
-        flex-direction: column;
-    }
-
-    #about img{
-        margin-right: 0;
     }
 }
