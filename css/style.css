@@ -130,33 +130,26 @@ loading
     display:block;
 }
 
-.content-title a:visited{
+a:visited{
     color:#FFFFFF;
 }
 
 .header-title-left{
     width: 120px;
     line-height: 1px;
-    padding: 10px 0;
+    padding: 15px;
     color: #000;
 }
 
-.header-title-right1{
+.header-title{
     width: 120px;
     line-height: 1px;
-    padding: 10px 0;
+    padding: 15px;
+    margin-left: 20px;
     color: #000;
     float: left;
-
 }
 
-.header-title-right2{
-    width: 120px;
-    line-height: 1px;
-    padding: 10px 0;
-    color: #000;
-    text-align: right;
-}
 
 /*----------
 Main Visual
